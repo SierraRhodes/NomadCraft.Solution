@@ -22,7 +22,7 @@ _This is a travel planner application that allows the user to create a trip and 
 
 * _Install .NET 6_
 * _clone the repository_
-* _Navigate to 'TravelPlanner.Solution' directory in your terminal_
+* _Navigate to 'NomadCraft.Solution' directory in your terminal_
 * _Open the project in any text editor/ VSCode preferably_
 * _Commit changes to your respository_
 * _Create a new file called appsettings.json_
@@ -33,7 +33,7 @@ _This is a travel planner application that allows the user to create a trip and 
 
 ## Recreating the Database
 
-* _To add a migration naviate to TravelPlanner.Solution in your command line_
+* _To add a migration naviate to NomadCraft.Solution in your command line_
 * _Navigate to TravelPlanner_
 * _Run dotnet build_
 * _Run the command "dotnet tool install --global dotnet-ef --version 6.0.0_
