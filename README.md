@@ -28,12 +28,13 @@ _This is a travel planner application that allows the user to create a trip and 
 * _Create a new file called appsettings.json_
 * _Add the following code to the appsettings.json file you created:
 ```markdown
-{ "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=[NAME-YOU-WANT-FOR-YOUR-DATABASE];uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];" } }
+{ "ConnectionStrings": { "DefaultConnection": "Server=localhost;Port=3306;database=[NAME-YOU-WANT-FOR-YOUR-DATABASE];
+uid=[YOUR-USERNAME-HERE];pwd=[YOUR-PASSWORD-HERE];" } }
 ```
 
 ## Recreating the Database
 
-* _To add a migration naviate to NomadCraft.Solution in your command line_
+* _To add a migration navigate to NomadCraft.Solution in your command line_
 * _Navigate to TravelPlanner_
 * _Run dotnet build_
 * _Run the command "dotnet tool install --global dotnet-ef --version 6.0.0_
